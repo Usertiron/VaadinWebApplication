@@ -22,12 +22,12 @@ Clients View
 
 
 
-A modal window "Add client»  
+A modal window "Add client"  
 ![Add a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add.PNG)
 
 
 
-A modal window "Add an order»  
+A modal window "Add an order"  
 ![Add an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add_ord.PNG)
 
 
