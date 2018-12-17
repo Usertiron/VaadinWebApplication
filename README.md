@@ -17,22 +17,32 @@ In the Example, a Car Repair Shop presentation was developed with two related ta
 Every grid supports typical CRUD operations - create, read, update and delete. It is also possible to filter each column by value.
 Below are a few screenshots of the web application GUI.
 
-Clients View
+Clients View  
 ![Clients View](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/clients.png)
 
-A modal window "Add client»
+
+
+A modal window "Add client»  
 ![Add a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add.PNG)
 
-A modal window "Add an order»
+
+
+A modal window "Add an order»  
 ![Add an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add_ord.PNG)
 
-Edit an existing client
+
+
+Edit an existing client  
 ![Edit a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/edit.PNG)
 
-Edit an existing order
+
+
+Edit an existing order  
 ![Edit an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/edit_order.PNG)
 
-Delete an item
+
+
+Delete an item  
 ![Delete](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/del.PNG)
 
 ## How to run
