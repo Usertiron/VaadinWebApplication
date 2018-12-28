@@ -18,22 +18,22 @@ Every grid supports typical CRUD operations - create, read, update and delete. I
 Below are a few screenshots of the web application GUI.
 
 Clients View  
-![Clients View](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/clients.png)
+![Clients View](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/ClientsView.gif)
 
 
 
 A modal window "Add client"  
-![Add a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add.PNG)
+![Add a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/AddClient.gif)
 
 
 
 A modal window "Add an order"  
-![Add an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/add_ord.PNG)
+![Add an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/AddAnOrder.gif)
 
 
 
 Edit an existing client  
-![Edit a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/edit.PNG)
+![Edit a client](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/EditTheClient.gif)
 
 
 
