@@ -15,6 +15,9 @@ public class ClientsView extends Composite implements View {
     private Button edit = new Button("Edit");
     private Button delete = new Button("Delete");
 
+    private static final float FILTER_HEIGHT = 80;
+    private static final float FILTER_WIDTH = 100;
+
     public ClientsView() {
 
         final VerticalLayout layout = new VerticalLayout();
@@ -49,24 +52,24 @@ public class ClientsView extends Composite implements View {
         TextField phoneNumberFilter = new TextField();
 
         clientIdFilter.setPlaceholder("Filter by ID...");
-        clientIdFilter.setHeight(80, Unit.PERCENTAGE);
-        clientIdFilter.setWidth(100, Unit.PERCENTAGE);
+        clientIdFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        clientIdFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         firstNameFilter.setPlaceholder("Filter by Name...");
-        firstNameFilter.setHeight(80, Unit.PERCENTAGE);
-        firstNameFilter.setWidth(100, Unit.PERCENTAGE);
+        firstNameFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        firstNameFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         surnameFilter.setPlaceholder("Filter by Surname...");
-        surnameFilter.setHeight(80, Unit.PERCENTAGE);
-        surnameFilter.setWidth(100, Unit.PERCENTAGE);
+        surnameFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        surnameFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         middleNameFilter.setPlaceholder("Filter by Middle Name...");
-        middleNameFilter.setHeight(80, Unit.PERCENTAGE);
-        middleNameFilter.setWidth(100, Unit.PERCENTAGE);
+        middleNameFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        middleNameFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         phoneNumberFilter.setPlaceholder("Filter by Phone Number...");
-        phoneNumberFilter.setHeight(80, Unit.PERCENTAGE);
-        phoneNumberFilter.setWidth(100, Unit.PERCENTAGE);
+        phoneNumberFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        phoneNumberFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         colClientId.setFilter(
                 clientIdFilter, InMemoryFilter.StringComparator.containsIgnoreCase());

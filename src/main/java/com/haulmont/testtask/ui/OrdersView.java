@@ -23,6 +23,9 @@ public class OrdersView extends Composite implements View {
     private static final String CUSTOMER_ACCEPTED = "Customer Accepted";
     private static final String COMPLETED = "Completed";
 
+    private static final float FILTER_HEIGHT = 80;
+    private static final float FILTER_WIDTH = 100;
+
     public OrdersView() {
 
         final VerticalLayout layout = new VerticalLayout();
@@ -74,35 +77,35 @@ public class OrdersView extends Composite implements View {
         ComboBox statusFilter = new ComboBox();
 
         orderIdFilter.setPlaceholder("Filter by Order ID...");
-        orderIdFilter.setHeight(80, Unit.PERCENTAGE);
-        orderIdFilter.setWidth(100, Unit.PERCENTAGE);
+        orderIdFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        orderIdFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         clientIdFilter.setPlaceholder("Filter by Client ID...");
-        clientIdFilter.setHeight(80, Unit.PERCENTAGE);
-        clientIdFilter.setWidth(100, Unit.PERCENTAGE);
+        clientIdFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        clientIdFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         descriptonFilter.setPlaceholder("Filter by Description...");
-        descriptonFilter.setHeight(80, Unit.PERCENTAGE);
-        descriptonFilter.setWidth(100, Unit.PERCENTAGE);
+        descriptonFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        descriptonFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         creationDateFilter.setPlaceholder("Filter by Creation Date...");
-        creationDateFilter.setHeight(80, Unit.PERCENTAGE);
-        creationDateFilter.setWidth(100, Unit.PERCENTAGE);
+        creationDateFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        creationDateFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         completionDateFilter.setPlaceholder("Filter by Completion Date...");
-        completionDateFilter.setHeight(80, Unit.PERCENTAGE);
-        completionDateFilter.setWidth(100, Unit.PERCENTAGE);
+        completionDateFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        completionDateFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         totalCostFilter.setPlaceholder("Filter by Cost...");
-        totalCostFilter.setHeight(80, Unit.PERCENTAGE);
-        totalCostFilter.setWidth(100, Unit.PERCENTAGE);
+        totalCostFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        totalCostFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         currencyFilter.setPlaceholder("Filter by Currency...");
-        currencyFilter.setHeight(80, Unit.PERCENTAGE);
-        currencyFilter.setWidth(100, Unit.PERCENTAGE);
+        currencyFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        currencyFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
-        statusFilter.setHeight(80, Unit.PERCENTAGE);
-        statusFilter.setWidth(100, Unit.PERCENTAGE);
+        statusFilter.setHeight(FILTER_HEIGHT, Unit.PERCENTAGE);
+        statusFilter.setWidth(FILTER_WIDTH, Unit.PERCENTAGE);
 
         statusFilter.setItems(PLANNED, CUSTOMER_ACCEPTED, COMPLETED);
 
