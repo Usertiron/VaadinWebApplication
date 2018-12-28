@@ -23,7 +23,6 @@ public class Order{
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "ClientID",
             referencedColumnName = "ClientID",
-            updatable = false,
             nullable = false)
     private Client clientID;
 
