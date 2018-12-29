@@ -88,14 +88,14 @@ public class EditOrderModalView extends Window {
         update.addClickListener(e -> update(order));
         cancel.addClickListener(e -> close());
 
-        bindingFields();
+        bindingFields(order);
 
         setModal(true);
         setHeight(70, Unit.PERCENTAGE);
         setWidth(30, Unit.PERCENTAGE);
     }
 
-    private void bindingFields() {
+    private void bindingFields(Order order) {
         binder.forField(this.clientId)
                 .asRequired()
                 .bind(Order::getClientID, Order::setClientID);
