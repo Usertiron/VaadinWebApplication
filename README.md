@@ -38,12 +38,12 @@ Edit an existing client
 
 
 Edit an existing order  
-![Edit an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/edit_order.PNG)
+![Edit an order](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/EditTheOrder.gif)
 
 
 
 Delete an item  
-![Delete](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/del.PNG)
+![Delete](https://github.com/Usertiron/VaadinWebApplication/blob/master/screenshots/DeleteAnItem.gif)
 
 ## How to run
 
